@@ -1,0 +1,14 @@
+.body{
+    background-color: brown;
+}
+
+.grid{
+    display: grid; /* Esto es para que se vea como una cuadricula, con el tamaño total de la pantalla
+
+    display: inline-grid; Esto es para que se vea como una cuadricula, con el tamaño total de la pantalla definido por nosotros*/
+
+    grid-template-columns: repeat (6,80 px);
+    grid-template-rows: repeat (2,80 px);
+    grid-gap: 5px;
+
+}
